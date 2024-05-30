@@ -3,6 +3,8 @@ version: '3'
 networks:
     nginx-php74-mysql8-node:
 
+- name: Azure Container Apps Build and Deploy
+  uses: Azure/container-apps-deploy-action@v2
 services:
 
     # nginx
